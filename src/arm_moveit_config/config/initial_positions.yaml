@@ -1,0 +1,7 @@
+# Default initial positions for ARM_URDF's ros2_control fake system
+
+initial_positions:
+  link_1 to base_link: 0
+  link_2 to link_1: 0
+  link_3 to link_2: 0
+  link_4 to link_3: 0
