@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="cage">
+  <link name="base_link">
+    <!-- sw2robot density="1000" inertia="solidworks" -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cage_description/meshes/cage.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cage_description/meshes/cage.stl" />
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="4.115011069e-05 0.02761907175 -2.806513352e-05" rpy="0 0 0" />
+      <mass value="0.0792316" />
+      <inertia ixx="0.000196658" ixy="1.75056e-07" ixz="9.15033e-11" iyy="0.000476585" iyz="-1.16477e-07" izz="0.000440273" />
+    </inertial>
+  </link>
+</robot>
